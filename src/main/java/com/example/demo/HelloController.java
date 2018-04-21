@@ -13,6 +13,6 @@ public class HelloController {
 
     @GetMapping("/index")
     public String index(){
-        return "hello world! -- created by maven!";
+        return "hello world! -- created by jenkins!";
     }
 }
